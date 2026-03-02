@@ -24,3 +24,29 @@ It allows testing webhook integrations locally via **ngrok** and provides a full
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+```bash
+webhook-repo/
+├─ app.py            # Flask webhook server
+├─ requirements.txt  # Python dependencies
+└─ README.md         # Project documentation
+```
+Notes
+
+Test events can be sent without real commits.
+
+Make sure Flask is running before sending events.
+
+MongoDB Atlas must allow your IP (or use 0.0.0.0/0 for testing).
+
+This setup is ready for assignment submission.
+
+🔹 References
+
+Flask Documentation
+
+MongoDB Atlas
+
+ngrok
+
+
